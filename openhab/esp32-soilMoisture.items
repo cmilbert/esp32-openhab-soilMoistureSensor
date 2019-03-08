@@ -1,0 +1,4 @@
+Number SoilMoisture "Soil Moisture" <water>
+DateTime SoilMoisture_LastUpdated "[%1$tm/%1$td %1$tH:%1$tM]" <water>
+Number Temperature "Temperature" <temperature>
+Number Humidity "Humidity" <humidity>

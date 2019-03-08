@@ -1,0 +1,6 @@
+rule "Soil Moisture Level"
+when
+  Item SoilMoisture received command
+then
+  SoilMoisture_LastUpdated.postUpdate(new DateTimeType())
+end
